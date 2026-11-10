@@ -127,5 +127,5 @@ const promise2 = new Promise((resolve) => setTimeout(resolve, 100, "foo"));
 const promise3 = Promise.reject("no")
 
 Promise.all([promise1, promise2, promise3]).then((values) => {
-  console.log(values); // [3, "foo"]
+  console.log(values); // [3, "foo"].
 });
